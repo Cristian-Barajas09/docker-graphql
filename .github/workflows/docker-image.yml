@@ -27,7 +27,7 @@ jobs:
       run: docker build -t cristianb19/docker-graphql:0.0.2 .
   
     - name: Push Docker image
-      run: docker push cristianb19/docker-graphql:0.0.2 .
+      run: docker push cristianb19/docker-graphql:0.0.2
         
     # - name: Build the Docker image
     #   run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
